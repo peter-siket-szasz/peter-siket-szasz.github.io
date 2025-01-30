@@ -37,7 +37,9 @@ jobs:
         run: npx next build
 
       - name: Show files 📂
-        run: ls -l
+        run: |
+          ls -la
+          ls -la out
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
