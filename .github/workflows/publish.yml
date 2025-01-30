@@ -2,7 +2,11 @@ name: publish-to-github-pages
 on:
   push:
     branches:
-      - master
+      - main
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: "Run this workflow manually"
 
 permissions:
   contents: read
