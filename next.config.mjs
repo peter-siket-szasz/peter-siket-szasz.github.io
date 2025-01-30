@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
-  basePath: "/",
+  basePath: "/peter-siket-szasz.github.io",
   images: {
     unoptimized: true,
   },
