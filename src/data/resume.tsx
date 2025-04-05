@@ -60,6 +60,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Capgemini",
+      href: "https://www.capgemini.com/",
+      badges: [],
+      location: "Poznan, Poland",
+      title: "Senior Software Engineer",
+      logoUrl: "/cap.png",
+      start: "March 2025",
+      end: "Present",
+      description:
+        "Senior software (Full-stack) engineer at a German health insurance client, working on a web application for clerks responsible for insured members. Within the first weeks I identified and improved several development workflow flaws and created a roadmap for further improvements. Working with Angular, TypeScript, Java, Spring Boot, Gitlab, Jenkins and more. ",
+      },
+    {
       company: "Netlight",
       href: "https://www.netlight.com/",
       badges: [],
